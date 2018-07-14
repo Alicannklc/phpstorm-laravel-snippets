@@ -1,9 +1,5 @@
 package com.alicannklc.laravel.snippets;
 
-/**
- * @author Alicannklc
- */
-
 import com.intellij.codeInsight.template.impl.DefaultLiveTemplatesProvider;
 import org.jetbrains.annotations.Nullable;
 
@@ -20,13 +16,14 @@ public class LaravelTemplateProvider implements DefaultLiveTemplatesProvider {
                 "liveTemplates/Laravel-Schema",
                 "liveTemplates/Laravel-Session",
                 "liveTemplates/Laravel-Views-and-Responses",
-                "liveTemplates/Laravel-5snippets",
+                "liveTemplates/Laravel-5-snippets",
+                "liveTemplates/Laravel-snippents-update",
         };
     }
 
     @Nullable
     @Override
     public String[] getHiddenLiveTemplateFiles() {
-        return null;
+        return new String[0];
     }
 }
