@@ -39,7 +39,6 @@
 |Auth::logout | Log the user out of the application.
 |Auth::user | Get the currently authenticated user.|
 |Auth::viaRemember|Determine if the user was authenticated using the remember me cookie.|
---------------------------------------------------------------------------------
 
 ## Blade
 |Prefix|description|
@@ -62,14 +61,16 @@
 |{{| Blade {{ echo data }}|
 |{{--| Blade comments|
 |{{{| Blade {{{ echo escaped data }}}|
---------------------------------------------------------------------------------
+
+
 ## Cookie
 |Prefix|description|
 |--------|-----------|
 |Cookie::forever| Make a Permanent Cookie|
 |Cookie::get| Retrieve a Cookie value
 |Cookie::make| Make/Queue a Cookie|
---------------------------------------------------------------------------------
+
+
 ## Config
 |Prefix|description|
 |--------|-----------|
@@ -78,7 +79,8 @@
 |Config::has| Determine if the given configuration value exists.|
 |Config::set| Set a given configuration value.|
 |Config::setMany| Set a given configuration value|
---------------------------------------------------------------------------------
+
+
 ## Config
 |Prefix|description|
 |--------|-----------|
@@ -93,13 +95,15 @@
 |Console::secret|Prompt the user for hidden input.|
 |Console::table| Prints a nicely formatted table to the console.|
 |Console::warn|Logs a warn message to the console.|
---------------------------------------------------------------------------------
+
+
 ## Crypt
 |Prefix|description|
 |--------|-----------|
 |Crypt::decrypt|Decrypt a value|
 |Crypt::encrypt|Encrypt a value.|
---------------------------------------------------------------------------------
+
+
 
 ## Column
 |Prefix|description|
@@ -141,7 +145,7 @@
 |Column::timestamps| Adds created_at and updated_at columns|
 |Column::tinyInteger|TINYINT equivalent to the table|
 |Column::uuid| UUID equivalent to the tabl|
---------------------------------------------------------------------------------
+
 
 ## Cache
 |Prefix|description|
@@ -156,7 +160,8 @@
 |Cache::put |Blade @include|
 |Cache::remember| Retrieve item or Store a default value if it doesn't exist|
 |Cache::rememberForever| Retrieve item or Store a default value permanently
---------------------------------------------------------------------------------
+
+
 ## DB
 |Prefix|description|
 |--------|-----------|
@@ -168,14 +173,12 @@
 |DB::transaction_commit| Commit the active database transaction.
 |DB::transaction_rollback|Rollback the active database transaction.
 |DB::update|Run an update statement against the database.|
---------------------------------------------------------------------------------
 
 ## Eloquent
 |Prefix|description|
 |--------|-----------|
 |Eloquent::reguard()| Renables any ability to throw mass assignment exceptions.
 |Eloquent::unguard()| Disables mass assignment exceptions from being thrown from model inserts and updates.|
---------------------------------------------------------------------------------
 
 ## Event
 |Prefix|description|
@@ -192,14 +195,12 @@
 |Event::push| Register an event and payload to be fired later.|
 |Event::subscribe| Register an event subscriber with the dispatcher.|
 |Event::until|Check the given plain value against a hash.|
---------------------------------------------------------------------------------
 
 ## Hash
 |Prefix|description|
 |--------|-----------|
 |Hash::make| Hash the given value..
 |Hash::needsRehash| Check if the given hash has been hashed using the given options.|
---------------------------------------------------------------------------------
 
 ## Form
 |Prefix|description|
@@ -221,7 +222,7 @@
 |Form::submit|Generate a Submit button (value, attributes)}|
 |Form::text| Generate a Text Input element (name, default, attributes)|
 |Form::textarea|Generate a Textarea Input element (name, default, attributes)|
---------------------------------------------------------------------------------
+
 
 ## Helpers
 |Prefix|description|
@@ -238,7 +239,7 @@
 |Helper::secure_asset| Generate a HTML link to the given asset using HTTPS|
 |Helper::secure_url|Generate a fully qualified URL to a given path using HTTPS|
 |Helper::url| Generate a fully qualified URL to a given path|
---------------------------------------------------------------------------------
+
 
 ## İnput
 |Prefix|description|
@@ -257,7 +258,8 @@
 |Input::old| Retrieve Old Data|
 |Input::oldWithDefault|Retrieve Old Data with Default|
 |Input::only|Retrieve only some of the Request Input|
------------------------------------------------------------------------
+
+
 ## Log
 |Prefix|description|
 |--------|-----------|
@@ -272,7 +274,7 @@
 |Log::useDailyFiles|Register a daily file log handler.|
 |Log::useFiles|Register a file log handler.|
 |Log::warning| Log a warning message to the logs.|
------------------------------------------------------------------------
+
 
 ## Mail
 |Prefix|description|
@@ -284,7 +286,7 @@
 |Mail::queueOn| Queue a new e-mail message for sending on the given queue.|
 |Mail::raw| Send a new message when only a raw text part.|
 
------------------------------------------------------------------------
+
 ## Redirect
 |Prefix|description|
 |--------|-----------|
@@ -293,7 +295,7 @@
 |Redirect::withFlashData|Redirect to URL, Route or Controller with Flash Data|
 |Redirect::withInput|Redirect to URL, Route or Controller with Input|
 |Redirect::withInputAndErrors|Redirect with Inputs and Errors|
---------------------------------------------------------------------------------
+
 
 ## Response
 |Prefix|description|
@@ -303,7 +305,8 @@
 |Response::JSONP|Create a JSONP Response|
 |Response::macro|Create a Response Macro|
 |Response::make|Create a Custom Response|
---------------------------------------------------------------------------------
+
+
 ## Relation
 |Prefix|description|
 |--------|-----------|
@@ -312,7 +315,8 @@
 |Relation::hasMany|A one-to-many relationship.|
 |Relation::hasManyThrough|A Has Many Through relationship.|
 |Relation::hasOne|A one-to-one relationship.|
---------------------------------------------------------------------------------
+
+
 
 ## Route
 |Prefix|description|
@@ -336,7 +340,8 @@ Route::https |Force a Route to be served over HTTPS|
 Route::match|Registering A Route For Multiple Verbs|
 Route::pattern|Define Global Patterns (Regex)|
 Route::when|Pattern based filters on routes|
---------------------------------------------------------------------------------
+
+
 ## Schema
 |Prefix|description|
 |--------|-----------|
@@ -346,7 +351,7 @@ Schema::hasColumn|Check for existence of column(s)
 |Schema::hasTable|Check for existence of table|
 Schema::rename|Rename an existing database table|
 Schema::table|Update an existing table|
---------------------------------------------------------------------------------
+
 
 ## Session
 |Prefix|description|
@@ -363,7 +368,8 @@ Session::push|Push a Value onto an Array Session Value
 Session::put|Store an Item in the Session|
 Session::reflash|Reflash the Current Flash Data|
 Session::regenerate|Regenerate the Session ID|
---------------------------------------------------------------------------------
+
+
 ## Storage
 |Prefix|description|
 |--------|-----------|
@@ -391,7 +397,8 @@ Storage::prepend|Insert content at the beginning of a file|
 Storage::put|Store a file on disk|
 Storage::size|Get the size of the file in bytes|
 Storage::type|Get the file type of a given file.|
---------------------------------------------------------------------------------
+
+
 
 ## Table
 |Prefix|description|
@@ -432,7 +439,7 @@ $table->bigIncrements|Incrementing ID using a "big integer" equivalent.|
 after|Add Column AFTER|
 |default|Declare a default value for a column|
 nullable|Designate that the column allows NULL values|
---------------------------------------------------------------------------------
+
 
 ## View
 |Prefix|description|
@@ -445,7 +452,7 @@ nullable|Designate that the column allows NULL values|
 |View::makeWith|Create a View, Pass Data using with()|
 |View::share|Share Data across all Views|
 
---------------------------------------------------------------------------------
+
 
 ## Validator
 |Prefix|description|
@@ -453,4 +460,3 @@ nullable|Designate that the column allows NULL values|
 |Validator::extend|Register a custom validator extension.|
 |Validator::make|Create a new Validator instance.|
 |Validator::resolver|Resolve a new Validator instance.|
---------------------------------------------------------------------------------
