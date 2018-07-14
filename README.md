@@ -5,7 +5,7 @@
 *  [Cookie](#cookie)
 *  [Form](#form)
  *  [Helpers](#helpers)
- *  [İnput](#input)
+ *  [İnput](#İnput)
  *  [Table](#table)
  *  [Schema](#schema)
 
