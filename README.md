@@ -4,7 +4,7 @@
 * [Cache](#cache)
 *  [Cookie](#cookie)
 *  [Form](#form)
- *  [Helpers](#helprs)
+ *  [Helpers](#helpers)
  *  [İnput](#input)
  *  [Table](#table)
  *  [Schema](#schema)
