@@ -1,0 +1,352 @@
+<templateSet group="Laravel-snippents-update">
+  <template name="Auth::attempt" value="Auth::attempt(['email' =&gt; $email, 'password' =&gt; $password]);" description="The attempt method will return true if authentication was successful." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::check" value="Auth::check();" description="Determine if the current user is authenticated." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::guard" value="Auth::guard($END$);" description="Auth::guard" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::guest" value="Auth::guest();" description="Determine if the current user is a guest." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::loginUsingId" value="Auth::loginUsingId($END$);" description="To log a user into the application by their ID" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::logout" value="Auth::logout();" description="Log the user out of the application." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::user" value="Auth::user();" description="Get the currently authenticated user." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Auth::viaRemember" value="Auth::viaRemember();" description="Determine if the user was authenticated using the remember me cookie." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::anticipate" value="$this-&gt;anticipate('Message$END$');" description="Give the user options for repsonse." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::ask" value="$this-&gt;ask('Question$END$');" description="Prompts the user with a question in the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::choice" value="$this-&gt;choice('What is your name?', ['Taylor', 'Dayle'], false$END$);" description="Give the user a predefined set of choices." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::comment" value="$this-&gt;comment('Message$END$');" description="Log a comment to the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::error" value="$this-&gt;error('Message$END$');" description="Log error to the console in red." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::info" value="$this-&gt;info('Message$END$');" description="Log information to the console in green" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::line" value="$this-&gt;line('Display this on the screen$END$');" description="Log plain information to the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::option" value="$this-&gt;option('$END$');" description="Get an option from constructor." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::question" value="$this-&gt;question('Message$END$');" description="Logs a question to the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::secret" value="$this-&gt;secret('What is the password?$END$');" description="Prompt the user for hidden input." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::table" value="$this-&gt;table($header,$END$ $row);" description="Prints a nicely formatted table to the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Console::warn" value="$this-&gt;warn('Message$END$');" description="Logs a warn message to the console." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Config::all" value="Config::all();" description="Get all of the configuration items for the application." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Config::get" value="Config::get('key$END$', 'default');" description="Get the specified configuration value." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Config::has" value="Config::has('key$END$')" description="Determine if the given configuration value exists." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Config::set" value="Config::set('key', $value);" description="Set a given configuration value." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Config::setMany" value="Config::set([&#10;        'key$END$' =&gt; $value,&#10;    ]);" description="Set a given configuration value" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Crypt::decrypt" value="try {&#10;        $decrypted =$END$ Crypt::decrypt($encryptedValue);&#10;    } catch (Illuminate\Contracts\Encryption\DecryptException $e) {&#10;        //&#10;    }" description="Decrypt a value" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Crypt::encrypt" value="Crypt::encrypt($value);" description="Encrypt a value." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::delete" value="DB::delete('delete users where name = ?'$END$, ['John'])" description="Run an delete statement against the database." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::insert" value="DB::insert('insert into users (id, name) values (?, ?)'$END$, [1, 'Dayle'])" description="Run an insert statement against the database." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::select" value="DB::select('select * from users where active = ?$END$', [1])" description="Run a select statement against the database." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::transaction_begin" value="DB::beginTransaction();" description="Start a new database transaction." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::transaction_commit" value="DB::commit();" description="Commit the active database transaction." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::transaction_rollback" value="DB::rollback();" description="Rollback the active database transaction." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::transaction" value="DB::transaction(function () {&#10;        //$END$&#10;    });" description="Execute a Closure within a transaction." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DB::update" value="DB::update('update users set votes = 100 where name = ?$END$', ['John'])" description="Run an update statement against the database." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Eloquent::reguard()" value="Eloquent::reguard();" description="Renables any ability to throw mass assignment exceptions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Eloquent::unguard()" value="Eloquent::unguard();" description="Disables mass assignment exceptions from being thrown from model inserts and updates." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::createClassListener" value="Event::createClassListener(listener$END$);" description="Create a class based listener using the IoC container." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::fire" value="Event::fire(new MyCustomEvent()$END$);" description="Fire an event and call the listeners." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::firing" value="Event::firing()" description="Get the event that is currently firing." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::flush" value="Event::flush('event$END$');" description="Flush a set of pushed events." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::forget" value="Event::forget('event$END$');" description="Remove a set of listeners from the dispatcher." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::getListeners" value="Event::getListeners('eventName');" description="Get all of the listeners for a given event name." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::hasListeners" value="Event::hasListeners('eventName');" description="Determine if a given event has listeners." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::listen" value="Event::listen(events$END$, listener, priority);" description="Register an event listener with the dispatcher." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::makeListener" value="Event::makeListener(listener$END$);" description="Register an event listener with the dispatcher." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::push" value="Event::push(event$END$, payload);" description="Register an event and payload to be fired later." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::subscribe" value="Event::subscribe(subscriber);" description="Register an event subscriber with the dispatcher." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Event::until" value="Event::until(event, payload)" description="Check the given plain value against a hash." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Hash::make" value="Hash::make($value)" description="Hash the given value." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Hash::needsRehash" value="if (Hash::needsRehash($hashedValue)$END$)&#10;    {&#10;        $hashed = Hash::make($value);&#10;    }" description="Check if the given hash has been hashed using the given options." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::alert" value="Log::alert('message$END$');" description="Log an alert message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::critical" value="Log::critical('message$END$');" description="Log a critical message to the logs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::debug" value="Log::debug('message$END$');" description="Log a debug message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::emergency" value="Log::emergency('message$END$');" description="Log an emergency message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::error" value="Log::error('message$END$');" description="Log an error message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::info" value="Log::info('message$END$');" description="Log an informational message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::log" value="Log::log('level$END$', 'message'');" description="Log a message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::notice" value="Log::notice(message$END$);" description="Log a notice to the logs" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::useDailyFiles" value="Log::useDailyFiles('path$END$', days, 'level');" description="Register a daily file log handler." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::useFiles" value="Log::useFiles('path$END$', 'level');" description="Register a file log handler." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Log::warning" value="Log::warning('message$END$');" description="Log a warning message to the logs." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Mail::queueOn" value=" Mail::queueOn('queue-name$END$', 'Html.view', $data, function ($message) {&#10;        $message-&gt;from('john@johndoe.com', 'John Doe');&#10;        $message-&gt;sender('john@johndoe.com', 'John Doe');&#10;    &#10;        $message-&gt;to('john@johndoe.com', 'John Doe');&#10;    &#10;        $message-&gt;cc('john@johndoe.com', 'John Doe');&#10;        $message-&gt;bcc('john@johndoe.com', 'John Doe');&#10;    &#10;        $message-&gt;replyTo('john@johndoe.com', 'John Doe');&#10;    &#10;        $message-&gt;subject('Subject');&#10;    &#10;        $message-&gt;priority(3);&#10;    &#10;        $message-&gt;attach('pathToFile');&#10;    });" description="Queue a new e-mail message for sending on the given queue." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Relation::belongsTo" value=" public function user$END$()&#10;    {&#10;        return this-&gt;belongsTo('App\User', 'foreign_key', 'other_key');&#10;    }" description="A one-to-one inverse relationship." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Relation::belongsToMany" value="public function roles$END$()&#10;    {&#10;        return this-&gt;belongsToMany('App\Role', 'role_user_table', 'user_id', 'role_id');&#10;    }" description="A many-to-many relationship." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Relation::hasMany" value="    public function comments$END$()&#10;    {&#10;        return this-&gt;hasMany('App\Comment', 'foreign_key', 'local_key');&#10;    }" description="A one-to-many relationship." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Relation::hasManyThrough" value="public function comments$END$()&#10;    {&#10;        return this-&gt;hasManyThrough('App\Comment', App\Post);&#10;    }" description="A Has Many Through relationship." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Relation::hasOne" value="    public function user$END$()&#10;    {&#10;        return this-&gt;hasOne('App\User', 'foreign_key', 'local_key');&#10;    }" description="A one-to-one relationship." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Route::delete" value="Route::delete('users/{id}$END$', function($id) {&#10;        //&#10;    });" description="Basic Delete Route." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="Route::post" value="Route::post('users/{id}$END$', function($id) {&#10;        //&#10;    });" description="Basic Post Route." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
