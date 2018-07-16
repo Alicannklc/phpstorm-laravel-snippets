@@ -86,7 +86,7 @@ ID          | com.alicannklc.laravel.snippets
 |Config::setMany| Set a given configuration value|
 
 
-## Config
+## Console
 |Prefix|description|
 |--------|-----------|
 |Console::anticipate|Give the user options for repsonse.|
