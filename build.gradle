@@ -1,0 +1,22 @@
+plugins {
+    id "org.jetbrains.intellij"   version "0.4.1"
+}
+
+wrapper {
+    gradleVersion '4.8'
+}
+
+intellij {
+    pluginName  "Laravel_5_snippets"
+    type "PS"
+    version  "2017.3"
+    plugins ["com.jetbrains.php"]
+    updateSinceUntilBuild false
+}
+
+sourceSets {
+    main {
+        java.srcDir 'src'
+        resources.srcDir 'resources'
+    }
+}
