@@ -6,8 +6,11 @@ Key         | Value
 Plugin Url  |https://plugins.jetbrains.com/plugin/10928
 ID          | com.alicannklc.laravel.snippets
 
-Want to donate? nice go [here](https://www.patreon.com/alicannklc)
+Donations
+----------
+Donations are **greatly appreciated!**
 
+**[BUY ME A COFFEE](https://www.patreon.com/join/alicannklc)**
 
 * [Auth](#auth)
 *  [Blade](#blade)
