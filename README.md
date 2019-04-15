@@ -1,9 +1,11 @@
 
+
 # Phpstorm Laravel Snippets
 Key         | Value
 ----------- | -----------
 Plugin Url  |https://plugins.jetbrains.com/plugin/10928
 ID          | com.alicannklc.laravel.snippets
+Patreon| [Patreon](https://www.patreon.com/alicannklc)
 
 * [Auth](#auth)
 *  [Blade](#blade)
